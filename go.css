@@ -1,0 +1,239 @@
+*{
+    font-family: sans-serif;
+    padding:0 ;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right ,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 90%;
+    height: 640px;
+    background-image: 
+    linear-gradient(to right,#01022de5   , #00000088),
+    url(ww.png)
+    
+    
+    
+    ;
+    
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#01022de5 20% , transparent),
+    url(ww.png)
+    
+    
+    
+    ;
+    
+    background-size: 1400px;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.logo{
+    text-transform: uppercase;
+    font-weight:bold ;
+    font-size: 30px;
+
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold ;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+a:hover{
+    color: rgb(0, 123, 255);
+}
+ul a {
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom: 2px solid rgb(0, 123, 255);
+
+
+}
+.content{
+    color: white;
+    width: 25%;
+    padding: 50px;
+    margin-top: 50px;
+
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    
+}
+p{
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding: 20px 0px;
+    
+}
+.content button{
+  
+    font-size: 14px;
+    width: 150px;
+    height: 33px;
+    border-radius: 17px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    
+
+    
+
+}
+.content button:hover{
+    color:white;
+    background-color: transparent;
+    border-color:white;
+    
+
+}
+.au{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+audio{
+    height: 33px;
+}
+@media  (max-width:1450px){
+    .content{
+        color: white;
+        width: 50%;
+        padding: 50px;
+        margin-top: 50px;
+    
+        
+    }
+    
+    
+    
+
+    
+
+}
+@media  (min-width:375px) and (max-width:812px){
+    .content {
+        color: white;
+        width: 98%;
+        padding: 15px;
+        margin-top: 50px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+    header{
+        
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        
+
+    }
+    ul{
+        width: 80%;
+        
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight:bold ;
+        text-transform: capitalize;
+        font-size: 11px;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 55px;
+        
+    }
+    .au{
+        display: contents;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 40px;
+        
+        
+        
+    }
+    audio{
+        height: 33px;
+    }
+    .content button{
+  
+        font-size: 14px;
+        width: 150px;
+        height: 33px;
+        border-radius: 17px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        margin-bottom: 8px;
+        
+    
+        
+    
+    }
+    
+    
+    
+    
+    
+
+    
+
+}
+
+    
+    
+    
+
+    
+
+
+
+
+
+  
+    
+
+    
+
+
